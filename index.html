@@ -5,11 +5,6 @@
 <meta name="theme-color" content="#fff"><meta name="description" content="MAGURA NEWS 24 — মাগুরা ও বাংলাদেশের সর্বশেষ সংবাদ">
 <meta property="og:site_name" content="MAGURA NEWS 24"><meta property="og:title" content="MAGURA NEWS 24 | মাগুরার সর্বশেষ সংবাদ"><meta property="og:description" content="মাগুরা ও বাংলাদেশের সর্বশেষ সংবাদ পড়ুন।"><meta property="og:image" content="">
 <title>MAGURA NEWS 24 | মাগুরার সর্বশেষ সংবাদ</title>
-
-<!-- ব্রাউজারের ট্যাবে এবং সার্চ বারে আপনার লোগো দেখানোর কোড -->
-<link rel="icon" type="image/png" href="https://i.ibb.co.com/20S5MwjP/file-00000000840c8211aa0bda683a303d63.png">
-<link rel="apple-touch-icon" href="https://i.ibb.co.com/20S5MwjP/file-00000000840c8211aa0bda683a303d63.png">
-
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
@@ -106,7 +101,7 @@ if(p.startsWith('/article/')){let k=p.slice(9),n=allNews.find(x=>x.slug===k||x.i
 if(p.startsWith('/category/')){let c=p.slice(10);listing(c+' সংবাদ',sorted().filter(n=>n.category===c||n.district===c||n.upazila===c));return}
 if(p==='/latest'){listing('সর্বশেষ সংবাদ',sorted());return}
 if(p.startsWith('/search')){let q=new URLSearchParams(p.split('?')[1]||'').get('q')||'';$('search-input').value=q;search(q);return}
-if==='/contact'){view('contact-view');return}
+if(p==='/contact'){view('contact-view');return}
 if(['/about','/privacy','/terms','/editorial-policy'].includes(p)){listing('তথ্য',[],'এই পৃষ্ঠার তথ্য পরে যুক্ত করা হবে।');return}
 view('home-view');home()}
 window.addEventListener('hashchange',route);$('back-top').onclick=()=>window.scrollTo({top:0,behavior:'smooth'});window.addEventListener('scroll',()=>$('back-top').classList.toggle('show',scrollY>450));
