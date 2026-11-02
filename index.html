@@ -1,254 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="description" content="মাগুরা নিউজ ২৪ — মাগুরা জেলা, বাংলাদেশ ও বিশ্বের সর্বশেষ সংবাদ, নির্ভরযোগ্য খবর ও актуয়াল আপডেট।" />
-  <meta name="keywords" content="মাগুরা নিউজ, Magura News 24, মাগুরা সংবাদ, শ্রীপুর সংবাদ, বাংলাদেশ সংবাদ" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="MAGURA NEWS 24" />
-  <meta property="og:title" content="MAGURA NEWS 24 | মাগুরার সর্বশেষ সংবাদ" />
-  <meta property="og:description" content="মাগুরা ও বাংলাদেশের সর্বশেষ সংবাদ পড়ুন।" />
-  <meta property="og:image" content="" />
-  <title>MAGURA NEWS 24 | মাগুরার সর্বশেষ সংবাদ</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <style>
-    :root{--red:#d71920;--ink:#171717;--muted:#777;--line:#e5e5e5;--soft:#f7f7f7;--white:#fff;--max:1180px;--shadow:0 8px 28px rgba(0,0,0,.055)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-family:'Noto Sans Bengali',sans-serif;font-size:15px;line-height:1.7}a{color:inherit;text-decoration:none}button,input{font:inherit}button{cursor:pointer}.container{width:min(var(--max),calc(100% - 32px));margin:auto}.topline{border-bottom:1px solid var(--line);font-size:12px;color:var(--muted)}.topline-inner{display:flex;justify-content:space-between;gap:12px;align-items:center;min-height:35px}.top-meta{display:flex;gap:17px;align-items:center;flex-wrap:wrap}.live-dot{display:inline-block;width:7px;height:7px;background:#16a34a;border-radius:50%;margin-right:5px}.masthead{padding:19px 0 15px}.masthead-inner{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:15px}.brand{display:flex;align-items:center;gap:11px;justify-self:center}.brand-mark{width:54px;height:54px;background:var(--red);color:#fff;display:grid;place-items:center;font-weight:900;font-size:20px;letter-spacing:-1px;border-radius:3px}.brand-name{font-weight:900;font-size:clamp(25px,4vw,39px);letter-spacing:-1.7px;line-height:1.15}.brand-name span{color:var(--red)}.tagline{font-size:11px;color:var(--muted);letter-spacing:.2px}.mast-actions{display:flex;justify-content:flex-end;gap:9px;align-items:center}.icon-btn{border:1px solid var(--line);background:#fff;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-size:18px}.icon-btn:hover{border-color:var(--red);color:var(--red)}.social-link{font-size:12px;color:#fff;background:#1877f2;padding:8px 12px;border-radius:3px}.nav-wrap{border-top:1px solid var(--line);border-bottom:2px solid var(--ink);position:relative;z-index:20;background:#fff}.nav-inner{display:flex;align-items:center;gap:0;min-height:47px}.nav-links{display:flex;align-items:center;gap:0;overflow:auto;scrollbar-width:none;flex:1}.nav-links::-webkit-scrollbar{display:none}.nav-links a{white-space:nowrap;padding:11px 12px;font-size:13px;font-weight:600;border-bottom:3px solid transparent}.nav-links a:hover,.nav-links a.active{color:var(--red);border-color:var(--red)}.hamburger{display:none;border:0;background:#fff;font-size:23px;padding:8px 12px}.ticker{display:flex;align-items:stretch;border:1px solid var(--line);margin:17px auto 22px;min-height:43px;overflow:hidden}.ticker-label{background:var(--red);color:#fff;font-weight:800;font-size:12px;white-space:nowrap;padding:10px 14px;display:flex;align-items:center}.ticker-window{overflow:hidden;display:flex;align-items:center;flex:1;min-width:0}.ticker-track{display:flex;align-items:center;gap:45px;white-space:nowrap;padding-left:18px;animation:ticker 35s linear infinite}.ticker:hover .ticker-track{animation-play-state:paused}.ticker-item{font-size:13px;font-weight:600}.ticker-item:before{content:'◆';color:var(--red);font-size:9px;margin-right:9px}@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}.section{margin:0 0 34px}.section-heading{display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid var(--ink);margin-bottom:17px;gap:12px}.section-heading h2{font-size:21px;margin:0;padding:0 0 8px;position:relative;font-weight:800}.section-heading h2:after{content:'';position:absolute;bottom:-2px;left:0;width:55px;height:3px;background:var(--red)}.more-link{font-size:12px;color:var(--red);font-weight:700}.hero-grid{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(260px,1fr);gap:20px}.hero-main{position:relative;min-height:420px;background:#eee;overflow:hidden;border-radius:3px}.hero-main img{width:100%;height:100%;min-height:420px;object-fit:cover;display:block;transition:transform .5s}.hero-main:hover img{transform:scale(1.025)}.hero-overlay{position:absolute;inset:0;background:linear-gradient(transparent 25%,rgba(0,0,0,.83));display:flex;flex-direction:column;justify-content:flex-end;padding:27px;color:#fff}.category-pill{display:inline-block;background:var(--red);color:#fff;font-size:11px;font-weight:700;padding:3px 9px;border-radius:2px;width:max-content;margin-bottom:10px}.hero-overlay h1{font-size:clamp(23px,3vw,34px);line-height:1.45;margin:0 0 9px;font-weight:800}.hero-overlay p{font-size:13px;color:#eee;margin:0 0 11px;max-width:700px}.meta{font-size:11px;color:var(--muted);display:flex;gap:12px;flex-wrap:wrap}.hero-overlay .meta{color:#ddd}.hero-side{display:grid;grid-template-rows:repeat(2,1fr);gap:15px}.side-feature{display:grid;grid-template-columns:42% 1fr;gap:12px;min-height:0;border-bottom:1px solid var(--line);padding-bottom:13px}.side-feature img{width:100%;height:137px;object-fit:cover;border-radius:2px}.side-feature h3{font-size:16px;line-height:1.55;margin:0 0 7px;font-weight:700}.side-feature .category-text{font-size:11px;color:var(--red);font-weight:700}.news-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.news-card{min-width:0;border:1px solid var(--line);background:#fff;transition:box-shadow .2s,transform .2s;overflow:hidden;border-radius:3px}.news-card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}.news-card img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#eee}.card-body{padding:13px 14px 15px}.card-category{font-size:11px;color:var(--red);font-weight:800;margin-bottom:5px}.news-card h3{font-size:16px;line-height:1.55;margin:0 0 8px;font-weight:700}.news-card p{font-size:12px;line-height:1.7;color:#666;margin:0 0 10px}.card-meta{font-size:10px;color:#888;display:flex;gap:10px;flex-wrap:wrap}.two-col{display:grid;grid-template-columns:minmax(0,2fr) minmax(250px,1fr);gap:28px}.compact-list{display:grid;gap:13px}.compact-item{display:grid;grid-template-columns:112px 1fr;gap:12px;border-bottom:1px solid var(--line);padding-bottom:12px}.compact-item img{width:112px;height:78px;object-fit:cover}.compact-item h3{font-size:14px;line-height:1.5;margin:0 0 5px}.compact-item .card-meta{font-size:10px}.sidebar-box{border:1px solid var(--line);padding:15px;margin-bottom:18px}.sidebar-box h3{font-size:17px;margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid var(--red)}.popular-item{display:flex;gap:11px;padding:10px 0;border-bottom:1px solid var(--line)}.popular-number{font-size:24px;font-weight:900;color:#ccc;line-height:1}.popular-item h4{font-size:13px;margin:0;line-height:1.5}.popular-item small{color:var(--muted);font-size:10px}.empty-state,.loading-state,.error-state{padding:35px 18px;text-align:center;border:1px dashed #ccc;background:#fafafa;color:#666;border-radius:4px}.empty-state strong{display:block;color:#222;font-size:17px;margin-bottom:5px}.status{font-size:12px;color:#777;margin:10px 0}.status.error{color:#b91c1c}.search-panel{display:flex;gap:8px;margin:18px 0 22px}.search-panel input{flex:1;min-width:0;border:1px solid #ccc;padding:11px 13px;border-radius:3px;outline:none}.search-panel input:focus{border-color:var(--red)}.primary-btn{border:0;background:var(--red);color:#fff;padding:10px 17px;border-radius:3px;font-weight:700}.primary-btn:hover{background:#b9151b}.article-layout{display:grid;grid-template-columns:minmax(0,2fr) minmax(250px,.8fr);gap:32px}.article h1{font-size:clamp(25px,4vw,38px);line-height:1.5;margin:8px 0 13px;font-weight:900}.article-meta{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0;margin:15px 0;display:flex;gap:15px;flex-wrap:wrap;color:#777;font-size:12px}.article-cover{width:100%;max-height:520px;object-fit:cover;background:#eee}.article-content{font-size:17px;line-height:2.05;white-space:pre-wrap;overflow-wrap:anywhere;margin:22px 0}.article-content p{margin:0 0 17px}.share-row{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.share-btn{border:1px solid var(--line);background:#fff;padding:8px 12px;font-size:12px;border-radius:3px}.share-btn:hover{border-color:var(--red);color:var(--red)}.related-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.related-grid .news-card h3{font-size:13px}.footer{margin-top:45px;background:#171717;color:#eee;padding:35px 0 15px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.footer-brand{font-size:25px;font-weight:900}.footer-brand span{color:#ff444b}.footer p{font-size:12px;color:#bbb;max-width:420px}.footer h3{font-size:15px;margin:0 0 10px}.footer-links{display:grid;gap:7px;font-size:12px;color:#ccc}.footer-links a:hover{color:#fff}.copyright{border-top:1px solid #444;margin-top:25px;padding-top:13px;color:#aaa;font-size:11px;text-align:center}.back-top{position:fixed;right:17px;bottom:17px;width:40px;height:40px;border:0;border-radius:50%;background:var(--red);color:#fff;font-size:19px;box-shadow:var(--shadow);display:none;z-index:10}.back-top.show{display:block}.skeleton{background:linear-gradient(90deg,#eee,#f7f7f7,#eee);background-size:200% 100%;animation:shine 1.3s infinite}@keyframes shine{to{background-position:-200% 0}}.hide{display:none!important}
-    .contact-strip{background:#f8f8f8;border-bottom:1px solid var(--line);padding:9px 0}
-    .contact-strip-inner{display:flex;justify-content:center;align-items:center;gap:10px 22px;flex-wrap:wrap;font-size:12px}
-    .contact-strip a{font-weight:700;color:#b9151b}
-    .contact-strip .hotline{color:#087443}
-    .contact-page{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:18px 0 35px}
-    .contact-card{border:1px solid var(--line);padding:20px;border-radius:5px;background:#fff}
-    .contact-card h3{margin:0 0 8px;font-size:17px}
-    .contact-card p{margin:0 0 12px;color:#666;font-size:13px}
-    .contact-card a{color:var(--red);font-weight:800;overflow-wrap:anywhere}
-    .social-buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
-    .social-buttons a{display:inline-block;background:#1877f2;color:white;padding:9px 13px;border-radius:3px;font-size:12px}
-    .social-buttons a:nth-child(2){background:#1557a6}
-    .contact-note{font-size:12px;color:#777;margin-top:12px}
-    @media(max-width:900px){.nav-links a{padding:10px 9px;font-size:12px}.hero-grid{grid-template-columns:1fr}.hero-main,.hero-main img{min-height:370px}.hero-side{grid-template-columns:repeat(2,1fr);grid-template-rows:auto}.side-feature{grid-template-columns:40% 1fr}.side-feature img{height:110px}.two-col,.article-layout{grid-template-columns:1fr}.news-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media(max-width:650px){.contact-strip-inner{gap:6px 12px;font-size:10px}.contact-page{grid-template-columns:1fr}}\n    @media(max-width:650px){.container{width:min(100% - 22px,var(--max))}.topline-inner{font-size:10px}.top-meta{gap:8px}.masthead{padding:12px 0}.masthead-inner{grid-template-columns:1fr auto}.brand{justify-self:start;gap:8px}.brand-mark{width:42px;height:42px;font-size:16px}.brand-name{font-size:25px}.tagline{font-size:9px}.mast-actions .social-link{display:none}.icon-btn{width:36px;height:36px}.nav-inner{min-height:43px}.hamburger{display:block}.nav-links{display:none;position:absolute;top:43px;left:0;right:0;background:#fff;border-bottom:2px solid var(--ink);box-shadow:var(--shadow);padding:7px 12px;max-height:70vh;overflow:auto;flex-direction:column;align-items:stretch}.nav-links.open{display:flex}.nav-links a{padding:9px 10px;border-bottom:1px solid #eee}.ticker{margin:12px auto 18px}.ticker-label{font-size:10px;padding:8px}.ticker-item{font-size:11px}.hero-main,.hero-main img{min-height:300px}.hero-overlay{padding:17px}.hero-overlay h1{font-size:22px}.hero-overlay p{font-size:11px}.hero-side{grid-template-columns:1fr;gap:12px}.side-feature img{height:100px}.side-feature h3{font-size:14px}.section{margin-bottom:27px}.section-heading h2{font-size:18px}.news-grid{grid-template-columns:1fr 1fr;gap:10px}.card-body{padding:9px}.news-card h3{font-size:13px;line-height:1.5}.news-card p{font-size:11px}.card-meta{font-size:9px;gap:6px}.compact-item{grid-template-columns:94px 1fr;gap:9px}.compact-item img{width:94px;height:70px}.compact-item h3{font-size:12px}.footer-grid{grid-template-columns:1fr 1fr;gap:20px}.footer-grid>div:first-child{grid-column:1/-1}.article h1{font-size:24px}.article-content{font-size:15px}.related-grid{grid-template-columns:1fr 1fr}}
-    @media(max-width:380px){.news-grid{grid-template-columns:1fr}.top-meta span:nth-child(2){display:none}.brand-name{font-size:22px}}
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fff"><meta name="description" content="MAGURA NEWS 24 — মাগুরা ও বাংলাদেশের সর্বশেষ সংবাদ">
+<meta property="og:site_name" content="MAGURA NEWS 24"><meta property="og:title" content="MAGURA NEWS 24 | মাগুরার সর্বশেষ সংবাদ"><meta property="og:description" content="মাগুরা ও বাংলাদেশের সর্বশেষ সংবাদ পড়ুন।"><meta property="og:image" content="">
+<title>MAGURA NEWS 24 | মাগুরার সর্বশেষ সংবাদ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--red:#d71920;--ink:#171717;--muted:#777;--line:#e5e5e5;--max:1180px;--shadow:0 8px 28px #0000000e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font:15px/1.7 'Noto Sans Bengali',sans-serif}a{color:inherit;text-decoration:none}button,input{font:inherit}.container{width:min(var(--max),calc(100% - 32px));margin:auto}
+.topline{border-bottom:1px solid var(--line);font-size:12px;color:var(--muted)}.topline-inner{display:flex;justify-content:space-between;min-height:35px;align-items:center}.live-dot{display:inline-block;width:7px;height:7px;background:#16a34a;border-radius:50%;margin-right:5px}
+.contact-strip{background:#f8f8f8;border-bottom:1px solid var(--line);padding:8px 0}.contact-strip-inner{display:flex;justify-content:center;gap:10px 22px;flex-wrap:wrap;font-size:12px}.contact-strip a{font-weight:700;color:#b9151b}.contact-strip .hotline{color:#087443}
+.masthead{padding:17px 0}.masthead-inner{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px}.brand{display:flex;align-items:center;gap:10px;justify-self:center}.brand-mark{width:52px;height:52px;background:var(--red);color:white;display:grid;place-items:center;font-weight:900;font-size:20px}.brand-name{font-weight:900;font-size:clamp(24px,4vw,38px);line-height:1.2}.brand-name span,.footer-brand span{color:var(--red)}.tagline{font-size:11px;color:var(--muted)}.mast-actions{display:flex;justify-content:flex-end;gap:8px}.icon-btn{border:1px solid var(--line);background:white;width:40px;height:40px;border-radius:50%;font-size:18px}.social-link{background:#1877f2;color:white;padding:8px 12px;font-size:12px}
+.nav-wrap{border-block:1px solid var(--line);border-bottom:2px solid var(--ink);background:white;position:relative;z-index:5}.nav-inner{display:flex;align-items:center;min-height:45px}.nav-links{display:flex;overflow:auto;flex:1}.nav-links a{white-space:nowrap;padding:9px 11px;font-size:13px;font-weight:700;border-bottom:3px solid transparent}.nav-links a.active,.nav-links a:hover{color:var(--red);border-color:var(--red)}.hamburger{display:none;border:0;background:white;font-size:22px}
+.ticker{display:flex;border:1px solid var(--line);margin:16px auto 22px;min-height:42px;overflow:hidden}.ticker-label{background:var(--red);color:white;padding:8px 13px;font-size:12px;font-weight:800;white-space:nowrap;display:grid;place-items:center}.ticker-window{overflow:hidden;display:flex;align-items:center;flex:1}.ticker-track{display:flex;gap:40px;white-space:nowrap;padding-left:16px;animation:ticker 35s linear infinite}.ticker:hover .ticker-track{animation-play-state:paused}.ticker-item{font-size:13px;font-weight:600}.ticker-item:before{content:'◆';color:var(--red);font-size:9px;margin-right:8px}@keyframes ticker{to{transform:translateX(-50%)}}
+.section{margin-bottom:32px}.section-heading{display:flex;justify-content:space-between;border-bottom:2px solid var(--ink);margin-bottom:16px}.section-heading h2{font-size:20px;margin:0 0 7px;font-weight:800}.more-link{font-size:12px;color:var(--red);font-weight:700}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(250px,1fr);gap:20px}
+.hero-main{display:flex;flex-direction:column;min-width:0;background:white;border:1px solid var(--line);border-radius:4px;overflow:hidden;box-shadow:var(--shadow)}
+.hero-image-link{display:block;background:#eee;overflow:hidden}.hero-image-link img{display:block;width:100%;height:clamp(230px,42vw,430px);object-fit:cover;object-position:center;background:#eee;transition:transform .35s}.hero-image-link:hover img{transform:scale(1.02)}
+.hero-overlay{position:static;display:block;background:white;color:var(--ink);padding:19px 21px}
+.category-pill{display:inline-block;background:var(--red);color:white;padding:3px 9px;font-size:11px;font-weight:700;margin-bottom:8px;border-radius:2px}
+.hero-overlay h1{font-size:clamp(21px,2.6vw,30px);line-height:1.55;margin:0 0 8px;font-weight:800;color:#171717}.hero-overlay h1 a:hover{color:var(--red)}.hero-overlay p{color:#555;font-size:14px;line-height:1.85;margin:0 0 11px}.meta{display:flex;gap:12px;flex-wrap:wrap;color:#777;font-size:11px}.hero-readmore{display:inline-block;color:var(--red);font-size:13px;font-weight:800;margin-top:10px}
+.hero-side{display:grid;gap:14px}.side-feature{display:grid;grid-template-columns:42% 1fr;gap:11px;border-bottom:1px solid var(--line);padding-bottom:12px}.side-feature img{width:100%;height:125px;object-fit:cover}.side-feature h3{font-size:15px;line-height:1.55;margin:0 0 6px}.category-text,.card-category{font-size:11px;color:var(--red);font-weight:800}
+.news-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.news-card{border:1px solid var(--line);border-radius:3px;overflow:hidden;min-width:0}.news-card:hover{box-shadow:var(--shadow)}.news-card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#eee}.card-body{padding:12px}.news-card h3{font-size:15px;line-height:1.55;margin:0 0 7px}.news-card p{font-size:12px;color:#666;margin:0 0 9px}.card-meta{font-size:10px;color:#888;display:flex;gap:9px;flex-wrap:wrap}
+.two-col,.article-layout{display:grid;grid-template-columns:minmax(0,2fr) minmax(240px,1fr);gap:26px}.compact-list{display:grid;gap:12px}.compact-item{display:grid;grid-template-columns:110px 1fr;gap:11px;border-bottom:1px solid var(--line);padding-bottom:11px}.compact-item img{width:110px;height:76px;object-fit:cover}.compact-item h3{font-size:14px;line-height:1.5;margin:0 0 5px}.sidebar-box{border:1px solid var(--line);padding:14px;margin-bottom:17px}.sidebar-box h3{font-size:16px;margin:0 0 10px;border-bottom:2px solid var(--red);padding-bottom:7px}.popular-item{display:flex;gap:10px;padding:9px 0;border-bottom:1px solid var(--line)}.popular-number{font-size:22px;color:#ccc;font-weight:900}.popular-item h4{font-size:12px;margin:0}.popular-item small{font-size:10px;color:#888}
+.empty-state,.loading-state,.error-state{padding:30px 16px;text-align:center;border:1px dashed #ccc;background:#fafafa;color:#666}.empty-state strong{display:block;color:#222}.status{font-size:12px;color:#777;margin:10px 0}.status.error{color:#b91c1c}.search-panel{display:flex;gap:8px;margin:17px 0}.search-panel input{flex:1;min-width:0;padding:10px;border:1px solid #ccc}.primary-btn{background:var(--red);color:white;border:0;padding:10px 17px;font-weight:700}
+.article h1{font-size:clamp(25px,4vw,38px);line-height:1.5;margin:8px 0}.article-meta{display:flex;gap:14px;flex-wrap:wrap;border-block:1px solid var(--line);padding:11px 0;margin:14px 0;color:#777;font-size:12px}.article-cover{width:100%;max-height:520px;object-fit:contain;background:#f2f2f2}.article-content{font-size:17px;line-height:2.05;white-space:pre-wrap;overflow-wrap:anywhere;margin:22px 0}.article-content p{margin:0 0 16px}.share-row{display:flex;gap:8px;flex-wrap:wrap}.share-btn{border:1px solid var(--line);background:white;padding:8px 12px;font-size:12px}.related-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.contact-page{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;margin:18px 0 32px}.contact-card{border:1px solid var(--line);padding:18px}.contact-card h3{margin:0 0 8px}.contact-card p{font-size:13px;color:#666}.contact-card a{color:var(--red);font-weight:800}.social-buttons{display:flex;gap:9px;flex-wrap:wrap}.social-buttons a{background:#1877f2;color:white;padding:8px 12px;font-size:12px}
+.footer{margin-top:40px;background:#171717;color:#eee;padding:32px 0 14px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:25px}.footer-brand{font-size:24px;font-weight:900}.footer p,.footer-links{font-size:12px;color:#bbb}.footer-links{display:grid;gap:7px}.copyright{text-align:center;border-top:1px solid #444;margin-top:22px;padding-top:12px;font-size:11px;color:#aaa}.back-top{position:fixed;right:16px;bottom:16px;border:0;border-radius:50%;width:40px;height:40px;background:var(--red);color:white;font-size:20px;display:none}.back-top.show{display:block}.hide{display:none!important}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero-image-link img{height:370px}.hero-side{grid-template-columns:repeat(2,1fr)}.two-col,.article-layout{grid-template-columns:1fr}.news-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.container{width:calc(100% - 22px)}.contact-strip-inner{font-size:10px;gap:6px 12px}.masthead{padding:12px 0}.masthead-inner{grid-template-columns:1fr auto}.brand{justify-self:start}.brand-mark{width:42px;height:42px;font-size:16px}.brand-name{font-size:23px}.mast-actions .social-link{display:none}.hamburger{display:block}.nav-links{display:none;position:absolute;top:43px;left:0;right:0;background:white;box-shadow:var(--shadow);padding:8px 12px;max-height:70vh;overflow:auto;flex-direction:column}.nav-links.open{display:flex}.nav-links a{padding:8px;border-bottom:1px solid #eee}.hero-image-link img{height:230px}.hero-overlay{padding:14px}.hero-overlay h1{font-size:19px}.hero-overlay p{font-size:12px}.hero-side{grid-template-columns:1fr}.side-feature img{height:100px}.news-grid{grid-template-columns:1fr 1fr;gap:10px}.card-body{padding:9px}.news-card h3{font-size:13px}.news-card p{font-size:11px}.compact-item{grid-template-columns:90px 1fr}.compact-item img{width:90px;height:68px}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}.contact-page{grid-template-columns:1fr}.article-content{font-size:15px}}
+@media(max-width:380px){.news-grid{grid-template-columns:1fr}.brand-name{font-size:21px}}
+</style>
 </head>
 <body>
-  <div class="topline"><div class="container topline-inner"><div class="top-meta"><span id="bangla-date">তারিখ লোড হচ্ছে…</span><span><i class="live-dot"></i><span id="digital-clock">সময় লোড হচ্ছে…</span></span></div><span>মাগুরা, বাংলাদেশ</span></div></div>
-  <div class="contact-strip"><div class="container contact-strip-inner">
-    <span>প্রতিনিধি: <a href="tel:01952175647">01952175647</a></span>
-    <span>হটলাইন: <a class="hotline" href="tel:+8809658646570">+8809658646570</a></span>
-    <a href="https://www.facebook.com/share/1E7TvYEA7o/" target="_blank" rel="noopener noreferrer">আমাদের Facebook পেজ ১</a>
-    <a href="https://www.facebook.com/share/1V4waduNJ6/" target="_blank" rel="noopener noreferrer">Facebook পেজ ২</a>
-  </div></div>
-  <header class="masthead"><div class="container masthead-inner">
-    <div class="tagline">সত্যের সন্ধানে, মানুষের পাশে</div>
-    <a class="brand" href="#/" aria-label="MAGURA NEWS 24 হোম"><div class="brand-mark">MN</div><div><div class="brand-name">MAGURA <span>NEWS 24</span></div><div class="tagline">মাগুরার খবর, দেশের খবর</div></div></a>
-    <div class="mast-actions"><a class="social-link" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a><button class="icon-btn" id="search-focus" aria-label="সার্চ">⌕</button></div>
-  </div></header>
-  <div class="nav-wrap"><div class="container nav-inner"><button class="hamburger" id="menu-toggle" aria-label="মেনু খুলুন" aria-expanded="false">☰</button><nav class="nav-links" id="nav-links" aria-label="প্রধান মেনু"></nav></div></div>
-  <main class="container">
-    <div class="ticker" id="breaking-ticker"><div class="ticker-label">লাইভ নিউজ ফিড</div><div class="ticker-window" aria-label="সর্বশেষ সংবাদ চলমান ফিড"><div class="ticker-track" id="ticker-track"><span class="ticker-item">সর্বশেষ সংবাদ পেতে সংযুক্ত হচ্ছে…</span></div></div></div>
-    <section id="home-view">
-      <section class="section"><div class="section-heading"><h2>প্রচ্ছদ সংবাদ</h2><a class="more-link" href="#/latest">সর্বশেষ সব সংবাদ →</a></div><div id="hero-area"><div class="loading-state">সংবাদ লোড হচ্ছে…</div></div></section>
-      <section class="section"><div class="section-heading"><h2>সর্বশেষ সংবাদ</h2><a class="more-link" href="#/latest">আরও দেখুন →</a></div><div class="news-grid" id="latest-grid"><div class="loading-state">সংবাদ লোড হচ্ছে…</div></div></section>
-      <section class="section"><div class="section-heading"><h2>মাগুরা জেলার সংবাদ</h2><a class="more-link" href="#/category/মাগুরা">সব সংবাদ →</a></div><div class="news-grid" id="district-grid"></div></section>
-      <section class="section two-col"><div><div class="section-heading"><h2>জাতীয় সংবাদ</h2><a class="more-link" href="#/category/জাতীয়">আরও দেখুন →</a></div><div class="compact-list" id="national-list"></div></div><aside><div class="sidebar-box"><h3>জনপ্রিয় সংবাদ</h3><div id="popular-list"></div></div></aside></section>
-      <section class="section"><div class="section-heading"><h2>খেলাধুলা</h2><a class="more-link" href="#/category/খেলাধুলা">আরও দেখুন →</a></div><div class="news-grid" id="sports-grid"></div></section>
-      <section class="section"><div class="section-heading"><h2>শিক্ষা</h2><a class="more-link" href="#/category/শিক্ষা">আরও দেখুন →</a></div><div class="news-grid" id="education-grid"></div></section>
-      <section class="section"><div class="section-heading"><h2>অপরাধ</h2><a class="more-link" href="#/category/অপরাধ">আরও দেখুন →</a></div><div class="news-grid" id="crime-grid"></div></section>
-    </section>
-    <section id="listing-view" class="hide"><div class="section-heading"><h2 id="listing-title">সংবাদ</h2></div><form class="search-panel" id="search-form"><input id="search-input" type="search" placeholder="শিরোনাম, বিষয়, জেলা বা উপজেলা দিয়ে খুঁজুন…" aria-label="সংবাদ খুঁজুন" /><button class="primary-btn" type="submit">খুঁজুন</button></form><div class="status" id="result-status"></div><div class="news-grid" id="listing-grid"></div></section>
-    <section id="article-view" class="hide"><div class="article-layout"><article class="article" id="article-content"></article><aside><div class="sidebar-box"><h3>জনপ্রিয় সংবাদ</h3><div id="article-popular"></div></div><div class="sidebar-box"><h3>সাম্প্রতিক সংবাদ</h3><div class="compact-list" id="article-recent"></div></div></aside></div><section class="section"><div class="section-heading"><h2>সম্পর্কিত সংবাদ</h2></div><div class="related-grid" id="related-grid"></div></section></section>
-    <section id="contact-view" class="hide">
-      <div class="section-heading"><h2>যোগাযোগ করুন</h2></div>
-      <p>সংবাদ, তথ্য, অভিযোগ, সংবাদ সংগ্রহ অথবা প্রতিনিধির সহায়তার জন্য MAGURA NEWS 24-এর সঙ্গে যোগাযোগ করুন।</p>
-      <div class="contact-page">
-        <div class="contact-card"><h3>মাঠপর্যায়ের প্রতিনিধি</h3><p>ঘটনাস্থলে গিয়ে তথ্য সংগ্রহ, পরিদর্শন বা সংবাদ-সংক্রান্ত বিষয়ে প্রতিনিধির সঙ্গে যোগাযোগ করুন।</p><a href="tel:01952175647">ফোন: 01952175647</a></div>
-        <div class="contact-card"><h3>কোম্পানির হটলাইন</h3><p>সাধারণ তথ্য, সেবা, অভিযোগ বা প্রতিনিধি পাঠানোর অনুরোধের জন্য আমাদের হটলাইনে কল করুন।</p><a href="tel:+8809658646570">ফোন: +8809658646570</a></div>
-        <div class="contact-card"><h3>Facebook পেজ</h3><p>আমাদের সামাজিক যোগাযোগমাধ্যমের পেজে মেসেজ পাঠান।</p><div class="social-buttons"><a href="https://www.facebook.com/share/1E7TvYEA7o/" target="_blank" rel="noopener noreferrer">Facebook পেজ ১</a><a href="https://www.facebook.com/share/1V4waduNJ6/" target="_blank" rel="noopener noreferrer">Facebook পেজ ২</a></div></div>
-        <div class="contact-card"><h3>ইমেইল যোগাযোগ</h3><p>অফিসিয়াল ইমেইল ঠিকানা এখনো দেওয়া হয়নি। ঠিকানা পাওয়া গেলে এখানে যুক্ত করা যাবে।</p><span class="contact-note">ইমেইল ঠিকানা শীঘ্রই যুক্ত করা হবে।</span></div>
-      </div>
-    </section>
-    <div id="connection-status" class="status" role="status" aria-live="polite"></div>
-  </main>
-  <footer class="footer"><div class="container"><div class="footer-grid"><div><div class="footer-brand">MAGURA <span>NEWS 24</span></div><p>মাগুরা জেলা, বাংলাদেশ ও বিশ্বের সর্বশেষ সংবাদ, নির্ভরযোগ্য তথ্য এবং মানুষের কথা তুলে ধরাই আমাদের অঙ্গীকার।</p></div><div><h3>প্রয়োজনীয় লিংক</h3><div class="footer-links"><a href="#/about">আমাদের সম্পর্কে</a><a href="#/contact">যোগাযোগ</a><a href="#/editorial-policy">সম্পাদকীয় নীতিমালা</a></div></div><div><h3>নীতিমালা ও সামাজিক যোগাযোগ</h3><div class="footer-links"><a href="#/privacy">গোপনীয়তা নীতি</a><a href="#/terms">শর্তাবলি</a><a href="https://www.facebook.com/share/1E7TvYEA7o/" target="_blank" rel="noopener noreferrer">Facebook পেজ ১</a><a href="https://www.facebook.com/share/1V4waduNJ6/" target="_blank" rel="noopener noreferrer">Facebook পেজ ২</a><a href="tel:01952175647">প্রতিনিধি: 01952175647</a><a href="tel:+8809658646570">হটলাইন: +8809658646570</a></div></div></div><div class="copyright">© <span id="copyright-year"></span> MAGURA NEWS 24. সর্বস্বত্ব সংরক্ষিত।</div></div></footer>
-  <button class="back-top" id="back-top" aria-label="উপরে যান">↑</button>
-
-  <script type="module">
-    // ============================================================
-    // 1. FIREBASE INITIALIZATION — আপনার Firebase config এখানে
-    // ============================================================
-    import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
-    import { getAnalytics, isSupported } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics.js';
-    import { getDatabase, ref, onValue, runTransaction } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-database.js';
-
-    const firebaseConfig = {
-      apiKey: 'AIzaSyBAVI-pyClWidhzCg0e9_kiajIojkxhY6Q',
-      authDomain: 'mdramzan-d7269.firebaseapp.com',
-      databaseURL: 'https://mdramzan-d7269-default-rtdb.firebaseio.com',
-      projectId: 'mdramzan-d7269',
-      storageBucket: 'mdramzan-d7269.firebasestorage.app',
-      messagingSenderId: '743599949579',
-      appId: '1:743599949579:web:5e7b132e689807f2ba840e',
-      measurementId: 'G-ZPC2EKWNL7'
-    };
-
-    const app = initializeApp(firebaseConfig);
-    const database = getDatabase(app);
-    isSupported().then(ok => { if (ok) getAnalytics(app); }).catch(() => {});
-
-    // ============================================================
-    // 2. CONSTANTS & STATE
-    // ============================================================
-    const TIME_ZONE = 'Asia/Dhaka';
-    const CATEGORIES = ['প্রচ্ছদ','মাগুরা','শ্রীপুর','মাগুরা সদর','মহম্মদপুর','শালিখা','জাতীয়','রাজনীতি','অপরাধ','শিক্ষা','খেলাধুলা','অর্থনীতি','বিনোদন','আন্তর্জাতিক','প্রযুক্তি'];
-    const PLACEHOLDER_IMAGE = 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450"><rect width="100%" height="100%" fill="#eeeeee"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#999" font-family="sans-serif" font-size="28">MAGURA NEWS 24</text></svg>');
-    let allNews = [];
-    let newsById = new Map();
-    let currentArticle = null;
-    let unsubscribeNews = null;
-
-    const $ = id => document.getElementById(id);
-    const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-    const safeImage = value => { try { const u = new URL(String(value || ''), location.href); return ['http:','https:','data:'].includes(u.protocol) ? u.href : PLACEHOLDER_IMAGE; } catch { return PLACEHOLDER_IMAGE; } };
-    const safeUrl = value => { try { const u = new URL(String(value || ''), location.href); return ['http:','https:'].includes(u.protocol) ? u.href : '#'; } catch { return '#'; } };
-    const timestamp = n => { const v = Number(n || 0); return Number.isFinite(v) ? (v < 100000000000 ? v * 1000 : v) : 0; };
-    const publishedNews = () => allNews.filter(n => n.published === true);
-    const sortedNews = () => [...publishedNews()].sort((a,b) => timestamp(b.createdAt) - timestamp(a.createdAt));
-    const dateTime = value => { const ms = timestamp(value); if (!ms) return 'তারিখ পাওয়া যায়নি'; return new Intl.DateTimeFormat('bn-BD',{timeZone:TIME_ZONE,day:'numeric',month:'long',year:'numeric'}).format(new Date(ms)); };
-    const timeOnly = value => { const ms = timestamp(value); if (!ms) return ''; return new Intl.DateTimeFormat('bn-BD',{timeZone:TIME_ZONE,hour:'2-digit',minute:'2-digit',hour12:true}).format(new Date(ms)); };
-    const articleUrl = n => '#/article/' + encodeURIComponent(n.slug || n.id);
-    const articleMeta = n => `<div class="card-meta"><span>✍ ${escapeHTML(n.reporter || 'নিজস্ব প্রতিবেদক')}</span><span>◷ ${dateTime(n.createdAt)} ${timeOnly(n.createdAt)}</span></div>`;
-    const cardHTML = n => `<article class="news-card"><a href="${articleUrl(n)}"><img src="${escapeHTML(safeImage(n.imageUrl))}" alt="${escapeHTML(n.title)}" loading="lazy" onerror="this.onerror=null;this.src='${PLACEHOLDER_IMAGE}'"><div class="card-body"><div class="card-category">${escapeHTML(n.category || 'সংবাদ')}</div><h3>${escapeHTML(n.title || 'শিরোনাম নেই')}</h3><p>${escapeHTML(n.summary || '')}</p>${articleMeta(n)}</div></a></article>`;
-    const compactHTML = n => `<article class="compact-item"><a href="${articleUrl(n)}"><img src="${escapeHTML(safeImage(n.imageUrl))}" alt="${escapeHTML(n.title)}" loading="lazy" onerror="this.onerror=null;this.src='${PLACEHOLDER_IMAGE}'"></a><div><div class="card-category">${escapeHTML(n.category || 'সংবাদ')}</div><h3><a href="${articleUrl(n)}">${escapeHTML(n.title || 'শিরোনাম নেই')}</a></h3><div class="card-meta">${dateTime(n.createdAt)} · ${timeOnly(n.createdAt)}</div></div></article>`;
-    const emptyHTML = msg => `<div class="empty-state"><strong>${escapeHTML(msg)}</strong>এই মুহূর্তে প্রদর্শনের মতো কোনো প্রকাশিত সংবাদ পাওয়া যায়নি।</div>`;
-
-    // ============================================================
-    // 3. BANGLA DATE, LIVE CLOCK & COPYRIGHT YEAR
-    // ============================================================
-    function updateClock(){
-      const now = new Date();
-      $('digital-clock').textContent = new Intl.DateTimeFormat('bn-BD',{timeZone:TIME_ZONE,hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:true}).format(now);
-      $('bangla-date').textContent = new Intl.DateTimeFormat('bn-BD',{timeZone:TIME_ZONE,weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(now);
-      $('copyright-year').textContent = new Intl.DateTimeFormat('en-US',{timeZone:TIME_ZONE,year:'numeric'}).format(now);
-    }
-    updateClock(); setInterval(updateClock,1000);
-
-    // ============================================================
-    // 4. NAVIGATION & ROUTING
-    // ============================================================
-    $('nav-links').innerHTML = CATEGORIES.map((c,i) => `<a href="${i===0?'#/':'#/category/'+encodeURIComponent(c)}" data-category="${escapeHTML(c)}">${escapeHTML(c)}</a>`).join('');
-    $('menu-toggle').addEventListener('click',()=>{const open=$('nav-links').classList.toggle('open');$('menu-toggle').setAttribute('aria-expanded',String(open));$('menu-toggle').textContent=open?'✕':'☰';});
-    $('nav-links').addEventListener('click',e=>{if(e.target.closest('a')){$('nav-links').classList.remove('open');$('menu-toggle').setAttribute('aria-expanded','false');$('menu-toggle').textContent='☰';}});
-    $('search-focus').addEventListener('click',()=>{location.hash='#/search';setTimeout(()=>$('search-input')?.focus(),80);});
-
-    function showView(name){['home-view','listing-view','article-view','contact-view'].forEach(id=>$(id).classList.toggle('hide',id!==name));window.scrollTo({top:0,behavior:'smooth'});}
-    function route(){
-      const path=decodeURIComponent(location.hash.slice(1) || '/');
-      $('nav-links').querySelectorAll('a').forEach(a=>a.classList.toggle('active',path==='/'?a.dataset.category==='প্রচ্ছদ':path.startsWith('/category/')&&a.dataset.category===path.split('/').slice(2).join('/')));
-      if(path.startsWith('/article/')){const key=path.slice('/article/'.length);const found=allNews.find(n=>n.slug===key||n.id===key);if(found&&found.published===true){renderArticle(found);showView('article-view');}else{showListing('সংবাদ পাওয়া যায়নি',[],'এই সংবাদটি পাওয়া যায়নি অথবা প্রকাশিত নয়।');}return;}
-      if(path.startsWith('/category/')){const category=path.slice('/category/'.length);const items=sortedNews().filter(n=>n.category===category||n.district===category||n.upazila===category);showListing(category+' সংবাদ',items);return;}
-      if(path==='/latest'){showListing('সর্বশেষ সংবাদ',sortedNews());return;}
-      if(path.startsWith('/search')){const params=new URLSearchParams(path.split('?')[1]||'');const q=params.get('q')||'';$('search-input').value=q;runSearch(q);showView('listing-view');$('listing-title').textContent='সংবাদ অনুসন্ধান';return;}
-      if(path==='/contact'){document.title='যোগাযোগ | MAGURA NEWS 24';showView('contact-view');return;}
-      if(path==='/about'||path==='/privacy'||path==='/terms'||path==='/editorial-policy'){const labels={'/about':'আমাদের সম্পর্কে','/contact':'যোগাযোগ','/privacy':'গোপনীয়তা নীতি','/terms':'শর্তাবলি','/editorial-policy':'সম্পাদকীয় নীতিমালা'};showListing(labels[path],[],'এই তথ্যের পৃষ্ঠা ভবিষ্যতে যুক্ত করা হবে।');return;}
-      document.title='MAGURA NEWS 24 | মাগুরার সর্বশেষ সংবাদ';showView('home-view');renderHome();
-    }
-    window.addEventListener('hashchange',route);
-
-    // ============================================================
-    // 5. HOMEPAGE NEWS RENDERING
-    // ============================================================
-    function renderHome(){
-      const news=sortedNews();
-      const featured=news.find(n=>n.featured===true)||news[0];
-      const hero=$('hero-area');
-      if(!news.length){hero.innerHTML=emptyHTML('এখনো কোনো সংবাদ প্রকাশিত হয়নি');}
-      else{
-        const side=news.filter(n=>n.id!==featured.id).slice(0,2);
-        hero.innerHTML=`<div class="hero-grid"><a class="hero-main" href="${articleUrl(featured)}"><img src="${escapeHTML(safeImage(featured.imageUrl))}" alt="${escapeHTML(featured.title)}" onerror="this.onerror=null;this.src='${PLACEHOLDER_IMAGE}'"><div class="hero-overlay"><span class="category-pill">${escapeHTML(featured.category||'প্রচ্ছদ')}</span><h1>${escapeHTML(featured.title||'শিরোনাম নেই')}</h1><p>${escapeHTML(featured.summary||'')}</p><div class="meta"><span>✍ ${escapeHTML(featured.reporter||'নিজস্ব প্রতিবেদক')}</span><span>◷ ${dateTime(featured.createdAt)} · ${timeOnly(featured.createdAt)}</span></div></div></a><div class="hero-side">${side.length?side.map(n=>`<article class="side-feature"><a href="${articleUrl(n)}"><img src="${escapeHTML(safeImage(n.imageUrl))}" alt="${escapeHTML(n.title)}" loading="lazy" onerror="this.onerror=null;this.src='${PLACEHOLDER_IMAGE}'"></a><div><div class="category-text">${escapeHTML(n.category||'সংবাদ')}</div><h3><a href="${articleUrl(n)}">${escapeHTML(n.title||'শিরোনাম নেই')}</a></h3><div class="card-meta">${dateTime(n.createdAt)}</div></div></article>`).join(''):emptyHTML('আরও সংবাদ আসছে')}</div></div>`;
-      }
-      $('latest-grid').innerHTML=news.length?news.slice(0,6).map(cardHTML).join(''):emptyHTML('সর্বশেষ সংবাদ নেই');
-      const districts=news.filter(n=>['মাগুরা','মাগুরা সদর','শ্রীপুর','মহম্মদপুর','শালিখা'].includes(n.district)||['মাগুরা সদর','শ্রীপুর','মহম্মদপুর','শালিখা'].includes(n.upazila)||n.category==='মাগুরা').slice(0,6);
-      $('district-grid').innerHTML=districts.length?districts.map(cardHTML).join(''):emptyHTML('মাগুরা জেলার সংবাদ পাওয়া যায়নি');
-      const national=news.filter(n=>n.category==='জাতীয়').slice(0,5);$('national-list').innerHTML=national.length?national.map(compactHTML).join(''):emptyHTML('জাতীয় সংবাদ পাওয়া যায়নি');
-      const popular=[...news].sort((a,b)=>Number(b.views||0)-Number(a.views||0)).slice(0,5);$('popular-list').innerHTML=popular.length?popular.map((n,i)=>`<a class="popular-item" href="${articleUrl(n)}"><span class="popular-number">${String(i+1).padStart(2,'0')}</span><span><h4>${escapeHTML(n.title)}</h4><small>${Number(n.views||0).toLocaleString('bn-BD')} বার পঠিত</small></span></a>`).join(''):emptyHTML('জনপ্রিয় সংবাদ নেই');
-      for(const [id,cat] of [['sports-grid','খেলাধুলা'],['education-grid','শিক্ষা'],['crime-grid','অপরাধ']]){const arr=news.filter(n=>n.category===cat).slice(0,3);$(id).innerHTML=arr.length?arr.map(cardHTML).join(''):emptyHTML(cat+' সংবাদ পাওয়া যায়নি');}
-      renderTicker(news.filter(n=>n.breaking===true).length?news.filter(n=>n.breaking===true):news.slice(0,8));
-    }
-    function renderTicker(items){const track=$('ticker-track');if(!items.length){track.innerHTML='<span class="ticker-item">এই মুহূর্তে কোনো ব্রেকিং নিউজ নেই</span>';return;}const content=items.map(n=>`<a class="ticker-item" href="${articleUrl(n)}">${escapeHTML(n.title)}</a>`).join('');track.innerHTML=content+content;}
-
-    // ============================================================
-    // 6. LISTING, CATEGORY FILTER & SEARCH
-    // ============================================================
-    function showListing(title,items,message=''){ $('listing-title').textContent=title;$('result-status').textContent=message||`${items.length.toLocaleString('bn-BD')}টি প্রকাশিত সংবাদ পাওয়া গেছে`;$('listing-grid').innerHTML=items.length?items.map(cardHTML).join(''):emptyHTML(message||'কোনো সংবাদ পাওয়া যায়নি');showView('listing-view'); }
-    function runSearch(query){const q=String(query||'').trim().toLocaleLowerCase('bn');const fields=n=>[n.title,n.summary,n.content,n.category,n.district,n.upazila,n.reporter,n.slug].join(' ').toLocaleLowerCase('bn');const results=q?sortedNews().filter(n=>fields(n).includes(q)):[];showListing('অনুসন্ধানের ফলাফল',results,q?`“${query}” — ${results.length.toLocaleString('bn-BD')}টি ফলাফল`:'অনুসন্ধানের জন্য শব্দ লিখুন।');}
-    $('search-form').addEventListener('submit',e=>{e.preventDefault();const q=$('search-input').value.trim();location.hash='#/search'+(q?'?q='+encodeURIComponent(q):'');if(location.hash==='#/search')runSearch(q);});
-
-    // ============================================================
-    // 7. ARTICLE DETAIL, SHARING & VIEW COUNT
-    // ============================================================
-    function renderArticle(n){
-      currentArticle=n;
-      const article=$('article-content');
-      const paragraphs=String(n.content||n.summary||'').split(/\n+/).filter(Boolean).map(p=>`<p>${escapeHTML(p)}</p>`).join('');
-      article.innerHTML=`<div class="card-category">${escapeHTML(n.category||'সংবাদ')}</div><h1>${escapeHTML(n.title||'শিরোনাম নেই')}</h1><div class="article-meta"><span>✍ ${escapeHTML(n.reporter||'নিজস্ব প্রতিবেদক')}</span><span>প্রকাশ: ${dateTime(n.createdAt)} ${timeOnly(n.createdAt)}</span><span>👁 <span id="article-views">${Number(n.views||0).toLocaleString('bn-BD')}</span> বার পঠিত</span></div><img class="article-cover" src="${escapeHTML(safeImage(n.imageUrl))}" alt="${escapeHTML(n.title)}" onerror="this.onerror=null;this.src='${PLACEHOLDER_IMAGE}'"><div class="article-content">${paragraphs||'<p>এই সংবাদের বিস্তারিত তথ্য এখনো যুক্ত করা হয়নি।</p>'}</div><div class="share-row"><button class="share-btn" id="share-native">শেয়ার করুন</button><button class="share-btn" id="share-facebook">Facebook</button><button class="share-btn" id="copy-link">লিংক কপি</button></div>`;
-      const related=sortedNews().filter(x=>x.id!==n.id&&(x.category===n.category||x.district===n.district)).slice(0,4);$('related-grid').innerHTML=related.length?related.map(cardHTML).join(''):emptyHTML('সম্পর্কিত সংবাদ নেই');
-      const recent=sortedNews().filter(x=>x.id!==n.id).slice(0,4);$('article-recent').innerHTML=recent.length?recent.map(compactHTML).join(''):emptyHTML('সাম্প্রতিক সংবাদ নেই');
-      const popular=[...sortedNews()].filter(x=>x.id!==n.id).sort((a,b)=>Number(b.views||0)-Number(a.views||0)).slice(0,5);$('article-popular').innerHTML=popular.length?popular.map((x,i)=>`<a class="popular-item" href="${articleUrl(x)}"><span class="popular-number">${i+1}</span><span><h4>${escapeHTML(x.title)}</h4><small>${Number(x.views||0).toLocaleString('bn-BD')} বার পঠিত</small></span></a>`).join(''):emptyHTML('জনপ্রিয় সংবাদ নেই');
-      const shareData={title:n.title||'MAGURA NEWS 24',text:n.summary||n.title||'',url:location.href};
-      $('share-native').addEventListener('click',async()=>{if(navigator.share){try{await navigator.share(shareData);}catch(e){}}else{copyCurrentUrl();}});
-      $('share-facebook').addEventListener('click',()=>window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank','noopener,noreferrer'));
-      $('copy-link').addEventListener('click',copyCurrentUrl);
-      incrementViews(n);
-      document.title=(n.title||'সংবাদ')+' | MAGURA NEWS 24';
-      document.querySelector('meta[property="og:title"]').content=n.title||'MAGURA NEWS 24';
-      document.querySelector('meta[property="og:description"]').content=n.summary||'';
-      document.querySelector('meta[property="og:image"]').content=safeImage(n.imageUrl);
-      const canonical=document.querySelector('link[rel="canonical"]')||document.head.appendChild(Object.assign(document.createElement('link'),{rel:'canonical'}));canonical.href=location.href;
-      const old=document.getElementById('news-structured-data');if(old)old.remove();
-      const schema=document.createElement('script');schema.type='application/ld+json';schema.id='news-structured-data';schema.textContent=JSON.stringify({'@context':'https://schema.org','@type':'NewsArticle','headline':n.title||'','image':n.imageUrl?[safeImage(n.imageUrl)]:[],'datePublished':timestamp(n.createdAt)?new Date(timestamp(n.createdAt)).toISOString():undefined,'dateModified':timestamp(n.updatedAt||n.createdAt)?new Date(timestamp(n.updatedAt||n.createdAt)).toISOString():undefined,'author':{'@type':'Person','name':n.reporter||'নিজস্ব প্রতিবেদক'},'publisher':{'@type':'Organization','name':'MAGURA NEWS 24'},'articleBody':String(n.content||n.summary||'')});document.head.appendChild(schema);
-    }
-    async function copyCurrentUrl(){try{await navigator.clipboard.writeText(location.href);$('copy-link').textContent='কপি হয়েছে ✓';}catch{$('copy-link').textContent='কপি করা যায়নি';}}
-    async function incrementViews(n){
-      // Realtime Database Rules-এ views child-এ শুধু +1 transaction অনুমোদন করতে হবে।
-      try{const result=await runTransaction(ref(database,`news/${n.id}/views`),current=>(Number(current)||0)+1);if(result.committed&&currentArticle?.id===n.id){$('article-views').textContent=Number(result.snapshot.val()||0).toLocaleString('bn-BD');n.views=result.snapshot.val();}}catch(error){console.warn('View count update skipped:',error.message);}
-    }
-
-    // ============================================================
-    // 8. REALTIME DATABASE SUBSCRIPTION (/news/)
-    // ============================================================
-    function startNewsListener(){
-      const status=$('connection-status');
-      unsubscribeNews=onValue(ref(database,'news/'),snapshot=>{
-        const raw=snapshot.val()||{};
-        allNews=Object.entries(raw).map(([id,value])=>({...value,id})).filter(n=>n.published===true);
-        newsById=new Map(allNews.map(n=>[n.id,n]));
-        status.textContent=allNews.length?`লাইভ সংযোগ সক্রিয় · ${allNews.length.toLocaleString('bn-BD')}টি প্রকাশিত সংবাদ`:'Firebase সংযুক্ত, তবে এখনো কোনো প্রকাশিত সংবাদ নেই।';status.classList.remove('error');
-        renderHome();
-        if(location.hash.startsWith('#/article/')){const key=decodeURIComponent(location.hash.slice('#/article/'.length));const updated=allNews.find(n=>n.slug===key||n.id===key);if(updated)renderArticle(updated);else route();}
-        else if(location.hash.startsWith('#/category/'))route();
-        else if(location.hash.startsWith('#/latest'))route();
-        else if(location.hash.startsWith('#/search'))route();
-      },error=>{
-        console.error('Firebase read error:',error);
-        status.textContent='সংবাদ সার্ভারের সঙ্গে সংযোগ করা যাচ্ছে না। অনুগ্রহ করে কিছুক্ষণ পর আবার চেষ্টা করুন।';status.classList.add('error');
-        $('hero-area').innerHTML=`<div class="error-state">সংবাদ লোড করা যায়নি। Firebase Database URL ও Realtime Database Rules পরীক্ষা করুন।</div>`;
-      });
-    }
-
-    // ============================================================
-    // 9. SMALL UI HELPERS & STARTUP
-    // ============================================================
-    $('back-top').addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
-    window.addEventListener('scroll',()=>$('back-top').classList.toggle('show',window.scrollY>450));
-    window.addEventListener('beforeunload',()=>{if(typeof unsubscribeNews==='function')unsubscribeNews();});
-    startNewsListener();
-    route();
-  </script>
-</body>
-</html>
+<div class="topline"><div class="container topline-inner"><div><span id="bangla-date">তারিখ লোড হচ্ছে…</span>　<span><i class="live-dot"></i><span id="digital-clock">সময় লোড হচ্ছে…</span></span></div><span>মাগুরা, বাংলাদেশ</span></div></div>
+<div class="contact-strip"><div class="container contact-strip-inner"><span>প্রতিনিধি: <a href="tel:01952175647">01952175647</a></span><span>হটলাইন: <a class="hotline" href="tel:+8809658646570">+8809658646570</a></span><a href="https://www.facebook.com/share/1E7TvYEA7o/" target="_blank" rel="noopener">Facebook পেজ ১</a><a href="https://www.facebook.com/share/1V4waduNJ6/" target="_blank" rel="noopener">Facebook পেজ ২</a></div></div>
+<header class="masthead"><div class="container masthead-inner"><div class="tagline">সত্যের সন্ধানে, মানুষের পাশে</div><a class="brand" href="#/"><div class="brand-mark">MN</div><div><div class="brand-name">MAGURA <span>NEWS 24</span></div><div class="tagline">মাগুরার খবর, দেশের খবর</div></div></a><div class="mast-actions"><a class="social-link" href="https://www.facebook.com/" target="_blank">Facebook</a><button class="icon-btn" id="search-focus">⌕</button></div></div></header>
+<div class="nav-wrap"><div class="container nav-inner"><button class="hamburger" id="menu-toggle">☰</button><nav class="nav-links" id="nav-links"></nav></div></div>
+<main class="container">
+<div class="ticker"><div class="ticker-label">লাইভ নিউজ ফিড</div><div class="ticker-window"><div class="ticker-track" id="ticker-track"><span class="ticker-item">সংবাদ লোড হচ্ছে…</span></div></div></div>
+<section id="home-view">
+<section class="section"><div class="section-heading"><h2>প্রচ্ছদ সংবাদ</h2><a class="more-link" href="#/latest">সর্বশেষ সব সংবাদ →</a></div><div id="hero-area"><div class="loading-state">সংবাদ লোড হচ্ছে…</div></div></section>
+<section class="section"><div class="section-heading"><h2>সর্বশেষ সংবাদ</h2><a class="more-link" href="#/latest">আরও দেখুন →</a></div><div class="news-grid" id="latest-grid"></div></section>
+<section class="section"><div class="section-heading"><h2>মাগুরা জেলার সংবাদ</h2></div><div class="news-grid" id="district-grid"></div></section>
+<section class="section two-col"><div><div class="section-heading"><h2>জাতীয় সংবাদ</h2></div><div class="compact-list" id="national-list"></div></div><aside><div class="sidebar-box"><h3>জনপ্রিয় সংবাদ</h3><div id="popular-list"></div></div></aside></section>
+<section class="section"><div class="section-heading"><h2>খেলাধুলা</h2></div><div class="news-grid" id="sports-grid"></div></section><section class="section"><div class="section-heading"><h2>শিক্ষা</h2></div><div class="news-grid" id="education-grid"></div></section><section class="section"><div class="section-heading"><h2>অপরাধ</h2></div><div class="news-grid" id="crime-grid"></div></section>
+</section>
+<section id="listing-view" class="hide"><div class="section-heading"><h2 id="listing-title">সংবাদ</h2></div><form class="search-panel" id="search-form"><input id="search-input" type="search" placeholder="শিরোনাম, বিষয়, জেলা বা উপজেলা দিয়ে খুঁজুন"><button class="primary-btn">খুঁজুন</button></form><div class="status" id="result-status"></div><div class="news-grid" id="listing-grid"></div></section>
+<section id="article-view" class="hide"><div class="article-layout"><article class="article" id="article-content"></article><aside><div class="sidebar-box"><h3>জনপ্রিয় সংবাদ</h3><div id="article-popular"></div></div><div class="sidebar-box"><h3>সাম্প্রতিক সংবাদ</h3><div class="compact-list" id="article-recent"></div></div></aside></div><section class="section"><div class="section-heading"><h2>সম্পর্কিত সংবাদ</h2></div><div class="related-grid" id="related-grid"></div></section></section>
+<section id="contact-view" class="hide"><div class="section-heading"><h2>যোগাযোগ করুন</h2></div><p>সংবাদ, তথ্য, অভিযোগ অথবা প্রতিনিধির সহায়তার জন্য যোগাযোগ করুন।</p><div class="contact-page"><div class="contact-card"><h3>মাঠপর্যায়ের প্রতিনিধি</h3><p>সংবাদ-সংক্রান্ত বিষয়ে যোগাযোগ করুন।</p><a href="tel:01952175647">01952175647</a></div><div class="contact-card"><h3>কোম্পানির হটলাইন</h3><a href="tel:+8809658646570">+8809658646570</a></div><div class="contact-card"><h3>Facebook পেজ</h3><div class="social-buttons"><a href="https://www.facebook.com/share/1E7TvYEA7o/">পেজ ১</a><a href="https://www.facebook.com/share/1V4waduNJ6/">পেজ ২</a></div></div><div class="contact-card"><h3>ইমেইল যোগাযোগ</h3><p>অফিসিয়াল ইমেইল ঠিকানা পাওয়া গেলে যুক্ত করা হবে।</p></div></div></section>
+<div id="connection-status" class="status"></div>
+</main>
+<footer class="footer"><div class="container"><div class="footer-grid"><div><div class="footer-brand">MAGURA <span>NEWS 24</span></div><p>মাগুরা জেলা, বাংলাদেশ ও বিশ্বের সর্বশেষ সংবাদ এবং নির্ভরযোগ্য তথ্য তুলে ধরাই আমাদের অঙ্গীকার।</p></div><div><h3>প্রয়োজনীয় লিংক</h3><div class="footer-links"><a href="#/about">আমাদের সম্পর্কে</a><a href="#/contact">যোগাযোগ</a><a href="#/editorial-policy">সম্পাদকীয় নীতিমালা</a></div></div><div><h3>নীতিমালা</h3><div class="footer-links"><a href="#/privacy">গোপনীয়তা নীতি</a><a href="#/terms">শর্তাবলি</a><a href="tel:01952175647">প্রতিনিধি: 01952175647</a></div></div></div><div class="copyright">© <span id="copyright-year"></span> MAGURA NEWS 24. সর্বস্বত্ব সংরক্ষিত।</div></div></footer>
+<button class="back-top" id="back-top">↑</button>
+<script type="module">
+import{initializeApp}from'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
+import{getDatabase,ref,onValue,runTransaction}from'https://www.gstatic.com/firebasejs/10.14.1/firebase-database.js';
+const firebaseConfig={apiKey:'AIzaSyBAVI-pyClWidhzCg0e9_kiajIojkxhY6Q',authDomain:'mdramzan-d7269.firebaseapp.com',databaseURL:'https://mdramzan-d7269-default-rtdb.firebaseio.com',projectId:'mdramzan-d7269',storageBucket:'mdramzan-d7269.firebasestorage.app',messagingSenderId:'743599949579',appId:'1:743599949579:web:5e7b132e689807f2ba840e',measurementId:'G-ZPC2EKWNL7'};
+const database=getDatabase(initializeApp(firebaseConfig)),TZ='Asia/Dhaka',CATEGORIES=['প্রচ্ছদ','মাগুরা','শ্রীপুর','মাগুরা সদর','মহম্মদপুর','শালিখা','জাতীয়','রাজনীতি','অপরাধ','শিক্ষা','খেলাধুলা','অর্থনীতি','বিনোদন','আন্তর্জাতিক','প্রযুক্তি'];
+const PLACEHOLDER='data:image/svg+xml;charset=UTF-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450"><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" fill="#999" font-size="28">MAGURA NEWS 24</text></svg>');
+let allNews=[],currentArticle=null;const $=id=>document.getElementById(id);
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const img=v=>{try{let u=new URL(String(v||''),location.href);return['https:','http:','data:'].includes(u.protocol)?u.href:PLACEHOLDER}catch{return PLACEHOLDER}};
+const ms=v=>{let n=Number(v||0);return Number.isFinite(n)?(n<1e12?n*1000:n):0};
+const published=()=>allNews.filter(n=>n.published===true),sorted=()=>[...published()].sort((a,b)=>ms(b.createdAt)-ms(a.createdAt));
+const date=v=>ms(v)?new Intl.DateTimeFormat('bn-BD',{timeZone:TZ,day:'numeric',month:'long',year:'numeric'}).format(new Date(ms(v))):'তারিখ পাওয়া যায়নি';
+const clock=v=>ms(v)?new Intl.DateTimeFormat('bn-BD',{timeZone:TZ,hour:'2-digit',minute:'2-digit',hour12:true}).format(new Date(ms(v))):'';
+const url=n=>'#/article/'+encodeURIComponent(n.slug||n.id);
+const empty=t=>`<div class="empty-state"><strong>${esc(t)}</strong>এই মুহূর্তে কোনো প্রকাশিত সংবাদ পাওয়া যায়নি।</div>`;
+const meta=n=>`<div class="card-meta"><span>✍ ${esc(n.reporter||'নিজস্ব প্রতিবেদক')}</span><span>◷ ${date(n.createdAt)} ${clock(n.createdAt)}</span></div>`;
+const card=n=>`<article class="news-card"><a href="${url(n)}"><img src="${esc(img(n.imageUrl))}" alt="${esc(n.title)}" loading="lazy" onerror="this.onerror=null;this.src='${PLACEHOLDER}'"><div class="card-body"><div class="card-category">${esc(n.category||'সংবাদ')}</div><h3>${esc(n.title||'শিরোনাম নেই')}</h3><p>${esc(n.summary||'')}</p>${meta(n)}</div></a></article>`;
+const compact=n=>`<article class="compact-item"><a href="${url(n)}"><img src="${esc(img(n.imageUrl))}" alt="${esc(n.title)}" loading="lazy"></a><div><div class="card-category">${esc(n.category||'সংবাদ')}</div><h3><a href="${url(n)}">${esc(n.title)}</a></h3><div class="card-meta">${date(n.createdAt)} · ${clock(n.createdAt)}</div></div></article>`;
+function updateClock(){let d=new Date();$('digital-clock').textContent=new Intl.DateTimeFormat('bn-BD',{timeZone:TZ,hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:true}).format(d);$('bangla-date').textContent=new Intl.DateTimeFormat('bn-BD',{timeZone:TZ,weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(d);$('copyright-year').textContent=new Intl.DateTimeFormat('en-US',{timeZone:TZ,year:'numeric'}).format(d)}
+updateClock();setInterval(updateClock,1000);
+$('nav-links').innerHTML=CATEGORIES.map((c,i)=>`<a href="${i?'#/category/'+encodeURIComponent(c):'#/' }" data-category="${esc(c)}">${esc(c)}</a>`).join('');
+$('menu-toggle').onclick=()=>{$('nav-links').classList.toggle('open')};$('search-focus').onclick=()=>{location.hash='#/search';setTimeout(()=>$('search-input')?.focus(),100)};
+function view(id){['home-view','listing-view','article-view','contact-view'].forEach(x=>$(x).classList.toggle('hide',x!==id));window.scrollTo({top:0,behavior:'smooth'})}
+function ticker(items){let t=$('ticker-track');if(!items.length){t.innerHTML='<span class="ticker-item">এই মুহূর্তে কোনো ব্রেকিং নিউজ নেই</span>';return}let s=items.map(n=>`<a class="ticker-item" href="${url(n)}">${esc(n.title)}</a>`).join('');t.innerHTML=s+s}
+function home(){let ns=sorted(),f=ns.find(n=>n.featured===true)||ns[0];if(!f)$('hero-area').innerHTML=empty('এখনো কোনো সংবাদ প্রকাশিত হয়নি');else{let side=ns.filter(n=>n.id!==f.id).slice(0,2);$('hero-area').innerHTML=`<div class="hero-grid"><article class="hero-main"><a class="hero-image-link" href="${url(f)}"><img src="${esc(img(f.imageUrl))}" alt="${esc(f.title||'সংবাদের ছবি')}" onerror="this.onerror=null;this.src='${PLACEHOLDER}'"></a><div class="hero-overlay"><span class="category-pill">${esc(f.category||'প্রচ্ছদ')}</span><h1><a href="${url(f)}">${esc(f.title||'শিরোনাম নেই')}</a></h1><p>${esc(f.summary||'')}</p><div class="meta"><span>✍ ${esc(f.reporter||'নিজস্ব প্রতিবেদক')}</span><span>◷ ${date(f.createdAt)} · ${clock(f.createdAt)}</span></div><a class="hero-readmore" href="${url(f)}">সম্পূর্ণ সংবাদ পড়ুন →</a></div></article><div class="hero-side">${side.length?side.map(n=>`<article class="side-feature"><a href="${url(n)}"><img src="${esc(img(n.imageUrl))}" alt="${esc(n.title)}" loading="lazy"></a><div><div class="category-text">${esc(n.category||'সংবাদ')}</div><h3><a href="${url(n)}">${esc(n.title)}</a></h3><div class="card-meta">${date(n.createdAt)} · ${clock(n.createdAt)}</div></div></article>`).join(''):empty('আরও সংবাদ আসছে')}</div></div>`}
+$('latest-grid').innerHTML=ns.length?ns.slice(0,6).map(card).join(''):empty('সর্বশেষ সংবাদ নেই');
+let ds=ns.filter(n=>['মাগুরা','মাগুরা সদর','শ্রীপুর','মহম্মদপুর','শালিখা'].includes(n.district)||['মাগুরা সদর','শ্রীপুর','মহম্মদপুর','শালিখা'].includes(n.upazila)||n.category==='মাগুরা').slice(0,6);$('district-grid').innerHTML=ds.length?ds.map(card).join(''):empty('মাগুরা জেলার সংবাদ নেই');
+let na=ns.filter(n=>n.category==='জাতীয়').slice(0,5);$('national-list').innerHTML=na.length?na.map(compact).join(''):empty('জাতীয় সংবাদ নেই');
+let po=[...ns].sort((a,b)=>Number(b.views||0)-Number(a.views||0)).slice(0,5);$('popular-list').innerHTML=po.length?po.map((n,i)=>`<a class="popular-item" href="${url(n)}"><span class="popular-number">${i+1}</span><span><h4>${esc(n.title)}</h4><small>${Number(n.views||0).toLocaleString('bn-BD')} বার পঠিত</small></span></a>`).join(''):empty('জনপ্রিয় সংবাদ নেই');
+for(let[id,c]of[['sports-grid','খেলাধুলা'],['education-grid','শিক্ষা'],['crime-grid','অপরাধ']]){let a=ns.filter(n=>n.category===c).slice(0,3);$(id).innerHTML=a.length?a.map(card).join(''):empty(c+' সংবাদ নেই')}
+ticker(ns.filter(n=>n.breaking===true).length?ns.filter(n=>n.breaking===true):ns.slice(0,8))}
+function listing(title,items,msg=''){$('listing-title').textContent=title;$('result-status').textContent=msg||`${items.length.toLocaleString('bn-BD')}টি সংবাদ পাওয়া গেছে`;$('listing-grid').innerHTML=items.length?items.map(card).join(''):empty(msg||'কোনো সংবাদ পাওয়া যায়নি');view('listing-view')}
+function search(q){let s=String(q||'').trim().toLocaleLowerCase('bn'),a=s?sorted().filter(n=>[n.title,n.summary,n.content,n.category,n.district,n.upazila,n.reporter,n.slug].join(' ').toLocaleLowerCase('bn').includes(s)):[];listing('অনুসন্ধানের ফলাফল',a,s?`“${q}” — ${a.length.toLocaleString('bn-BD')}টি ফলাফল`:'অনুসন্ধানের জন্য শব্দ লিখুন।')}
+$('search-form').onsubmit=e=>{e.preventDefault();let q=$('search-input').value.trim();location.hash='#/search'+(q?'?q='+encodeURIComponent(q):'');search(q)};
+async function copyLink(){try{await navigator.clipboard.writeText(location.href);$('copy-link').textContent='কপি হয়েছে ✓'}catch{$('copy-link').textContent='কপি করা যায়নি'}}
+async function views(n){try{let r=await runTransaction(ref(database,`news/${n.id}/views`),v=>(Number(v)||0)+1);if(r.committed&&currentArticle?.id===n.id){$('article-views').textContent=Number(r.snapshot.val()).toLocaleString('bn-BD');n.views=r.snapshot.val()}}catch(e){console.warn('View count update skipped',e.message)}}
+function article(n){currentArticle=n;let ps=String(n.content||n.summary||'').split(/\n+/).filter(Boolean).map(p=>`<p>${esc(p)}</p>`).join('');$('article-content').innerHTML=`<div class="card-category">${esc(n.category||'সংবাদ')}</div><h1>${esc(n.title)}</h1><div class="article-meta"><span>✍ ${esc(n.reporter||'নিজস্ব প্রতিবেদক')}</span><span>প্রকাশ: ${date(n.createdAt)} ${clock(n.createdAt)}</span><span>👁 <span id="article-views">${Number(n.views||0).toLocaleString('bn-BD')}</span> বার পঠিত</span></div><img class="article-cover" src="${esc(img(n.imageUrl))}" alt="${esc(n.title)}"><div class="article-content">${ps||'<p>বিস্তারিত তথ্য এখনো যুক্ত করা হয়নি।</p>'}</div><div class="share-row"><button class="share-btn" id="share-native">শেয়ার করুন</button><button class="share-btn" id="share-facebook">Facebook</button><button class="share-btn" id="copy-link">লিংক কপি</button></div>`;
+let rel=sorted().filter(x=>x.id!==n.id&&(x.category===n.category||x.district===n.district)).slice(0,4);$('related-grid').innerHTML=rel.length?rel.map(card).join(''):empty('সম্পর্কিত সংবাদ নেই');
+let rec=sorted().filter(x=>x.id!==n.id).slice(0,4);$('article-recent').innerHTML=rec.length?rec.map(compact).join(''):empty('সাম্প্রতিক সংবাদ নেই');
+let pop=sorted().filter(x=>x.id!==n.id).sort((a,b)=>Number(b.views||0)-Number(a.views||0)).slice(0,5);$('article-popular').innerHTML=pop.length?pop.map((x,i)=>`<a class="popular-item" href="${url(x)}"><span class="popular-number">${i+1}</span><h4>${esc(x.title)}</h4></a>`).join(''):empty('জনপ্রিয় সংবাদ নেই');
+$('share-native').onclick=async()=>{if(navigator.share){try{await navigator.share({title:n.title,text:n.summary||n.title,url:location.href})}catch(e){}}else copyLink()};$('share-facebook').onclick=()=>window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank');$('copy-link').onclick=copyLink;views(n);document.title=(n.title||'সংবাদ')+' | MAGURA NEWS 24';document.querySelector('meta[property="og:title"]').content=n.title||'MAGURA NEWS 24';document.querySelector('meta[property="og:description"]').content=n.summary||'';document.querySelector('meta[property="og:image"]').content=img(n.imageUrl)}
+function route(){let p=decodeURIComponent(location.hash.slice(1)||'/');$('nav-links').querySelectorAll('a').forEach(a=>a.classList.toggle('active',p==='/'?a.dataset.category==='প্রচ্ছদ':p.startsWith('/category/')&&a.dataset.category===p.split('/').slice(2).join('/')));
+if(p.startsWith('/article/')){let k=p.slice(9),n=allNews.find(x=>x.slug===k||x.id===k);if(n&&n.published===true){article(n);view('article-view')}else listing('সংবাদ পাওয়া যায়নি',[],'সংবাদটি পাওয়া যায়নি অথবা প্রকাশিত নয়।');return}
+if(p.startsWith('/category/')){let c=p.slice(10);listing(c+' সংবাদ',sorted().filter(n=>n.category===c||n.district===c||n.upazila===c));return}
+if(p==='/latest'){listing('সর্বশেষ সংবাদ',sorted());return}
+if(p.startsWith('/search')){let q=new URLSearchParams(p.split('?')[1]||'').get('q')||'';$('search-input').value=q;search(q);return}
+if(p==='/contact'){view('contact-view');return}
+if(['/about','/privacy','/terms','/editorial-policy'].includes(p)){listing('তথ্য',[],'এই পৃষ্ঠার তথ্য পরে যুক্ত করা হবে।');return}
+view('home-view');home()}
+window.addEventListener('hashchange',route);$('back-top').onclick=()=>window.scrollTo({top:0,behavior:'smooth'});window.addEventListener('scroll',()=>$('back-top').classList.toggle('show',scrollY>450));
+onValue(ref(database,'news/'),s=>{let raw=s.val()||{};allNews=Object.entries(raw).map(([id,v])=>({...v,id})).filter(n=>n.published===true);$('connection-status').textContent=allNews.length?`লাইভ সংযোগ সক্রিয় · ${allNews.length.toLocaleString('bn-BD')}টি প্রকাশিত সংবাদ`:'Firebase সংযুক্ত, তবে প্রকাশিত সংবাদ নেই।';$('connection-status').classList.remove('error');home();if(location.hash.startsWith('#/'))route()},e=>{$('connection-status').textContent='Firebase থেকে সংবাদ আনা যাচ্ছে না। Database URL ও Rules পরীক্ষা করুন।';$('connection-status').classList.add('error');$('hero-area').innerHTML='<div class="error-state">সংবাদ লোড করা যায়নি। Firebase সংযোগ পরীক্ষা করুন।</div>';console.error(e)});
+route();
+</script>
+</body></html>
